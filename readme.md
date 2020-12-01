@@ -28,3 +28,4 @@ This is a quick guide to update your instance of Liferay Portal for no-technical
   - Keep doing this process until you reach `../bundles/tomcat-9.0.37/bin/`
 - Run `./catalina.sh run`. In a couple of minutes the Portal will start
   - If it doesn’t work, you might need to [start/config your database](https://github.com/julien/notes/blob/master/portal.md#apache-ant-and-mysql-57)
+  - If it doesn’t work, you might need to [format your database](https://www.siteground.com/kb/how_can_i_empty_out_an_sql_database/). **Warning: this will delete all the pages, media and _stuff_ in your Portal**
